@@ -124,7 +124,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -164,6 +164,8 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+
+/* STYLING STARTS HERE */
 @media (max-width: 500px) {
   p {
     font-size: 1.55rem;
